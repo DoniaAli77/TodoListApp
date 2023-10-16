@@ -1,0 +1,27 @@
+   <>
+    <form className='new-item-form'>
+     <div className='form-row'>
+       <label htmlFor='item'>New Item</label>
+       <input type='text' id="item"/>
+      <button className='btn'>add</button>
+     </div>
+   </form>
+   <h1 className='header'>Todo List</h1>
+   <ul className='list'></ul>
+   <li>
+    <label>
+      <input type='checkbox'/>
+      item1
+    </label>
+    <button className='btn btn-danger'>delete</button>
+   </li>
+   <li>
+    <label>
+      <input type='checkbox'/>
+      item2
+      
+    </label>
+    <button className='btn btn-danger'>delete</button>
+   </li>
+   
+    </>
